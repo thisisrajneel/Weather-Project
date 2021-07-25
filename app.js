@@ -13,11 +13,12 @@ app.get('/', (req, res)=>{
 
         response.on("data", data=>{
             const weatherData = JSON.parse(data);
+            const name = weatherData.name;
+            const temp = weatherData.main.temp;
 
-            console.log(weatherData);
+            console.log('Temp in '+name+' is '+temp);
         })
     })
-
     res.send('server is up and running.')
 });
 
