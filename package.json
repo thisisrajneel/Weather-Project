@@ -1,0 +1,22 @@
+{
+  "name": "weather-project",
+  "version": "1.0.0",
+  "description": "Get weather details of a place.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisisrajneel/Weather-Project.git"
+  },
+  "author": "Rajneel Anuraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thisisrajneel/Weather-Project/issues"
+  },
+  "homepage": "https://github.com/thisisrajneel/Weather-Project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
